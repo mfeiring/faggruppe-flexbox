@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'Metric thin';
+  src: url('assets/MetricWeb-Thin.woff2') format('woff2'),
+    url('assets/MetricWeb-Thin.woff') format('woff');
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Metric light';
+  src: url('assets/MetricWeb-Light.woff2') format('woff2'),
+    url('assets/MetricWeb-Light.woff') format('woff');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Metric';
+  src: url('assets/MetricWeb-Regular.woff2') format('woff2'),
+    url('assets/MetricWeb-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Metric medium';
+  src: url('assets/MetricWeb-Medium.woff2') format('woff2'),
+    url('assets/MetricWeb-Medium.woff') format('woff');
+  font-style: normal;
+  font-weight: 500;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Metric', arial, sans-serif;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+header {
+  border-bottom: 1px solid #e0e1dd;
+}
+
+header a,
+header button {
+  font-size: 18px;
+  padding: 12px;
+}
+
+.logo {
+  width: 68px;
+  height: 68px;
+  margin: 6px;
+}
+
+main {
+  padding: 0 24px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 300;
+  font-family: Metric light;
+}
+
+.planner-container {
+  box-shadow: 0 3px 16px 0 rgba(0, 0, 0, 0.12);
+  padding: 36px 30px 36px 30px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Metric medium';
+}
+
+input {
+  font-size: 18px;
+  height: 60px;
+  border: 1px solid #b6b6b6;
+  border-radius: 2px;
+  text-indent: 12px;
+  background-position: 98% 18px;
+  background-repeat: no-repeat;
+  padding-right: 54px;
+}
+
+.input--from input {
+  background-size: 30px 24px;
+  background-image: url('assets/Train.svg');
+}
+
+.input--to input {
+  background-size: 16px 24px;
+  background-image: url('assets/Arrival.svg');
+}
+
+p {
+  font-size: 34px;
+  font-weight: 300;
+  font-family: 'Metric light';
+  margin-top: 0;
+}
+
+p.tag {
+  font-size: 14px;
+  font-family: 'Metric';
+  text-transform: uppercase;
+  color: #d52b1e;
+}
