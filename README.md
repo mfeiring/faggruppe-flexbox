@@ -39,3 +39,7 @@ Bruk flexbox for å få artikkelen til å ligne på den som er på nsb.no.
 Det kan hende du må legge til noen ekstra "wrapper-elementer" (`div`) for at ting skal oppføre seg riktig.
 
 <img src="pudderalarm.png">
+
+## Ferdig?
+
+Ta en titt på [The Ultimate Guide to Flexbox  —  Learning Through Examples](https://medium.freecodecamp.org/the-ultimate-guide-to-flexbox-learning-through-examples-8c90248d4676), eller lek deg litt med [Flexbox Defense](http://www.flexboxdefense.com/)
